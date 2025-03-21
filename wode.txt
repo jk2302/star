@@ -1,2 +1,14 @@
-i = 1
-j = 2
+# 预设正确的用户名和密码
+correct_username = "admin"
+correct_password = "123456"
+
+# 获取用户输入的用户名和密码
+input_username = input("请输入用户名: ")
+input_password = input("请输入密码: ")
+
+# 判断输入的用户名和密码是否正确
+if input_username == correct_username and input_password == correct_password:
+    print("登录成功！")
+else:
+    print("用户名或密码错误！")
+    
