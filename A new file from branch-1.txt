@@ -1,0 +1,13 @@
+import random
+
+# 随机生成一个考生的成绩
+student_id = "2025001"
+score = random.randint(0, 100)
+
+# 成绩查询
+input_id = input("请输入要查询的考号：")
+if input_id == student_id:
+    print(f"考号 {student_id} 的成绩是：{score} 分。")
+else:
+    print("未找到该考号的成绩，请检查输入。")
+    
